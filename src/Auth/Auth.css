@@ -1,0 +1,32 @@
+.auth {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 350px;
+}
+
+button {
+  width: 150px;
+  height: 35px;
+  background: rgb(248, 165, 10);
+  border: 1px solid green;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+button:active {
+  box-shadow: inset 0px 0px 2px 1px rgba(255,255,255,0.94);
+}
